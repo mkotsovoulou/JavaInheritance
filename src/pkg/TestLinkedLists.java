@@ -2,7 +2,7 @@ package pkg;
 
 import java.util.LinkedList;
 
-public class testLinkedLists {
+public class TestLinkedLists {
     public static void main(String[] args) {
 
         LinkedList<String> names = new LinkedList<>();

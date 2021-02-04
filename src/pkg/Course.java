@@ -15,8 +15,8 @@ public class Course {
     /**
      * Instantiates a new course with code and name
      *
-     * @param course_code This is the code code
-     * @param course_name
+     * @param course_code This is the course code
+     * @param course_name This is the course name
      */
     public Course(String course_code, String course_name) {
         this.course_code = course_code;
@@ -29,7 +29,7 @@ public class Course {
      * instantiates a new course with code, name and credits
      * @param course_code
      * @param course_name
-     * @param credits
+     * @param credits  Credits should be an integer from 1 to 4
      */
     public Course(String course_code, String course_name, int credits) {
         this.course_code = course_code;
